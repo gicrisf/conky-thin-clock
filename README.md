@@ -1,12 +1,14 @@
 # Conky, Thin Clock 
 Simple conky configuration inspired from Budgie minimal widget clock.
 
-![screenshot](screenshot-on-green.png)
+![screenshot](screenshot-fullscreen.png)
 
 ## Font
 First of all, we need the right font. **If you are on Ubuntu, you're just fine.**
 
 Otherwise, you should install the Ubuntu font from [here](https://design.ubuntu.com/font/).
+
+![screenshot](screenshot-on-green.png)
 
 ## Installation
 Fetch the configuration file `.conkyrc` from the [GitHub repo](https://github.com/mr-chrome/conky-thin-clock):
