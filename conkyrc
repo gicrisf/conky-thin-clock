@@ -1,0 +1,47 @@
+conky.config = {
+
+background=true,
+update_interval=1,
+double_buffer=true,
+no_buffers=true,
+imlib_cache_size=10,
+
+draw_shades=false,
+draw_outline=false,
+draw_borders=false,
+
+gap_x=200,
+gap_y=100,
+
+alignment="bottom_right",
+
+minimum_height=400,
+minimum_width=0,
+
+own_window=true,
+own_window_type="desktop",
+own_window_transparent=true,
+own_window_hints="undecorated,below,sticky,skip_taskbar,skip_pager",
+
+own_window_argb_visual=true,
+own_window_argb_value=0,
+
+use_xft=true,
+xftalpha=1,
+font="UbuntuThin:size=10",
+text_buffer_size=256,
+override_utf8_locale=true,
+
+default_color='FFFFFF',
+color0='FFFFFF',
+color1='FFFFFF',
+}
+
+conky.text = [[
+${font UbuntuThin:size=90}${color0}\
+${goto 180}\
+${time %H:%M}\
+${voffset -150}
+${font UbuntuThin:size=30}${color0}\
+${time %A %d %B}\
+]]
