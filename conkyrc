@@ -39,8 +39,10 @@ color1='FFFFFF',
 
 conky.text = [[
 ${font UbuntuThin:size=90}${color0}\
-${goto 180}\
+$alignr\
 ${time %H:%M}\
+$alignr\
+${goto 690}\
 ${voffset -150}
 ${font UbuntuThin:size=30}${color0}\
 ${time %A %d %B}\
