@@ -16,16 +16,11 @@ If you are on Arch, you should find the Ubuntu fonts on AUR.
 
 ## Installation
 
-Fetch the configuration file `.conkyrc` from the [GitHub repo](https://github.com/mr-chrome/conky-thin-clock):
+Clone this repo, then copy the configuration file in your home directory:
 
 ```
 $ git clone https://github.com/gicrisf/conky-thin-clock
-```
-
-Then copy the configuration file in your home directory:
-
-```
 $ cp ./conky-thin-clock/conkyrc ~/.conkyrc
 ```
 
-Start conky and enjoy your brand new clock.
+Launch conky and enjoy your time.
